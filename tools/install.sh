@@ -55,7 +55,7 @@ custom_zsh=${ZSH:+yes}
 
 # Default settings
 ZSH="${ZSH:-$HOME/.oh-my-zsh}"
-REPO=${REPO:-ohmyzsh/ohmyzsh}
+REPO=${REPO:-lxjmaster/ohmyzsh}
 REMOTE=${REMOTE:-https://github.com/${REPO}.git}
 BRANCH=${BRANCH:-master}
 
@@ -507,8 +507,8 @@ EOF
   fi
 
   setup_ohmyzsh
-   setup_zshrc
-   setup_shell
+  setup_zshrc
+  setup_shell
 
   print_success
 
