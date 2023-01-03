@@ -507,8 +507,8 @@ EOF
   fi
 
   setup_ohmyzsh
-#  setup_zshrc
-#  setup_shell
+  setup_zshrc
+  setup_shell
 
   print_success
 
